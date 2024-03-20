@@ -62,9 +62,29 @@ letter-spacing: 3px;
     position: absolute;
     bottom: 0;
 }
+
 @media screen and (max-width: 375px) {
-    .footer{
-        src: url("images/pattern-hills.svg");
-        width: 370px;
+    body{
+    margin: 50px;
+    display: grid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color:  hsl(235, 16%, 14%);
+    background-image: url("images/bg-stars.svg");
+    font-size: 14px;
+    font-family: Red Hat Text;
+}
+    /* .countdown{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin: 20px;
+        cursor: pointer;  */
+    /* } */
+    .footer .img{
+        width: 150px;
     }
 }
